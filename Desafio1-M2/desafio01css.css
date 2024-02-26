@@ -1,0 +1,192 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #00B1AE;
+    margin: 0px;
+    width: relative;
+}
+header {
+    background-image: linear-gradient(to bottom, #008F8C, #004B4A);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 0px;
+}
+
+header > nav > button {
+    border: none;
+    margin: none;
+    background-color: #07575546;
+}
+
+header > nav > button:hover {
+    background-color: #008F8C;
+    margin: 10px 10px 10px 10px solid #008F8C;
+}
+
+header > nav > button > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: auto;
+    padding: 1px;
+}
+
+header > div {
+    text-align: center;
+    color: white;
+    width: 430px;
+    margin: auto;
+}
+
+#titulo {
+    font-family: idroid;
+    color: #008F8C;
+}
+
+main > div {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    max-width: 850px;
+    min-width: 430px;
+    text-align: justify;
+    background-color: rgb(255, 254, 254);
+    margin: auto;
+    border: 15px solid white;
+}
+
+main > div > p {
+    text-indent: 2em;
+}
+
+main > div > p > a {
+    text-decoration: none;
+    color: #006D6B;
+}
+
+#inkscape {
+    background-color: #00D3CF;
+}
+
+#danmorrill {
+    background-color: #00D3CF;
+}
+
+#irinabloka {
+    background-color: #00D3CF;
+}
+
+main > div > h2 {
+    color: #008F8C;
+    background-image: linear-gradient(to right, #00D3CF, white);
+}
+
+#dan {
+    border: 0px;
+    text-align: center;
+}
+
+#irina {
+    border: 0px;
+    text-align: center;
+}
+
+#android {
+    border: 0px;
+    text-align: center;
+}
+
+#video {
+    text-align: center;
+    background-color: #004B4A;
+    margin: auto;
+    border: 20px solid #004b4a;
+    border-radius: 10px 10px;
+    
+}
+
+#video-container {
+    display: flex;
+}
+
+article{
+    max-width: 850px;
+    min-width: 430px;
+    text-align: justify;
+    background-color: rgb(255, 254, 254);
+    margin: auto;
+    border: 15px solid white;
+}
+
+#titulolista{
+    color: white;
+    background-color: #006D6B;
+    margin: 0;
+    border-bottom: 5px solid #006D6B;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    max-width: 850px;
+    min-width: 430px;
+}
+
+#lista{
+    background-color: #00D3CF;
+    text-indent: 2em;
+    border-top: 15px solid #00D3CF;
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
+    max-width: 850px;
+    min-width: 430px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.329);
+}
+
+article > div > div > ol {
+    display: inline-block;
+}
+
+#olparte1 {
+    margin-left: 10px;
+}
+
+#olparte2 {
+    margin-left: 20px;
+}
+
+#plista {
+    text-align: center;
+}
+
+#history {
+    text-decoration: none;
+    color: #004B4A;
+    background-color: #008F8C;
+}
+
+footer {
+    text-align: center;
+    background-color: #004B4A;
+    height: 30px;
+}
+
+footer > p {
+    color: white;
+    margin: auto;
+    border: auto;
+    padding: 5px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #00D3CF;
+}
+

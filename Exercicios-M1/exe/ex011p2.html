@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Audio</title>
+</head>
+<body>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir o audio.</p>
+    <p>compativel com mp3, wave e ogg</p>
+    <audio src="midia/Speak The Truth.mp3" controls></audio>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/Speak The Truth.mp3" type="audio/mpeg">
+        <source src="midia/Speak The Truth.mp3" type="audio/ogg">
+        <source src="midia/Speak The Truth.mp3" type="audio/wave">
+        <p>infelizmente seu navegador nao consegue reproduzir o audio, <a href="midia/Speak The Truth.mp3">Clique aqui</a> para baixar o audio</p>
+    </audio>
+</body>
+</html>

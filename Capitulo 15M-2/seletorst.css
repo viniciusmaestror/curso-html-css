@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+    para buscar o id usa # no CSS
+    para buscar a class usa o . no CSS
+*/
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(0, 165, 0);
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+}
+
+h1#principal {
+    margin: auto;
+    background-color: rgb(15, 153, 15);
+    color: black;
+    width: 450px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: rgb(30, 95, 30);
+}
+
+.basico{
+    color: rgb(97, 255, 97);
+    font-weight: bold;
+    text-align: left;
+}
+
+.intermediario {
+    color: rgb(72, 252, 72);
+}
+
+.avancado {
+    color: rgb(87, 143, 87);
+}
+
+.destaque {
+    background-color: gold;
+    color: rgb(136, 0, 68);
+}
