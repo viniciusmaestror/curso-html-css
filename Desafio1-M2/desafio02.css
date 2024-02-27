@@ -59,13 +59,14 @@ nav {
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
-    height: 30px;
+    height: 25px;
 }
 
 nav > a {
     color: var(--cor1);
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    margin-right: 3px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
