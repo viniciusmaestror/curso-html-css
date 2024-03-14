@@ -23,7 +23,7 @@ header > h1 {
     color: white;
     padding-top: 50px;
     font: var(--font-padrao);
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 #direitos > a {
@@ -46,7 +46,7 @@ main > article{
     background-color: white;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2.5em;
+    line-height: 2em;
     padding-left: 35px;
     font-family: var(--font-padrao);
     font-size: 3.5vw;
@@ -59,13 +59,13 @@ main > article{
 }
 
 #foto1 {
-    background-image: url('../Cap19-M3/imagens/wallpaper002.jpg');
+    background-image: url('/Desafio2-M3/imagens/background001.jpg');
     min-height: 70vw;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var( --font-padrao);
@@ -75,7 +75,7 @@ main > article{
 #conteudo {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2.5em;
+    line-height: 2em;
     padding-left: 35px;
     font-size: 3.5vw;
     font-family: var(--font-padrao);
@@ -88,13 +88,13 @@ main > article{
 }
 
 #foto2 {
-    background-image: url('../Cap19-M3/imagens/wallpaper002.jpg');
+    background-image: url('../Desafio2-M3/imagens/background002.jpg');
     min-height: 70vw;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var( --font-padrao);
@@ -104,7 +104,7 @@ main > article{
 #conteudo2 {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2.5em;
+    line-height: 2em;
     padding-left: 35px;
     font-size: 3.5vw;
     font-family: var(--font-padrao);
