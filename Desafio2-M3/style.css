@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: rgb(255, 0, 0);
+    background-color: white;
     margin: 0px;
 }
 
@@ -126,7 +126,8 @@ footer > p > a {
     color: white;
 }
 
-footer > p > a :hover{
+#linkedin:hover{
+    color: white;
     text-decoration: underline;
 
 }
