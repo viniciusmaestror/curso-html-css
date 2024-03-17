@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+:root {
+    --font1: 'Great vibes', cursive;
+    --font2: Arial, Helvetica, Sans-serif;
+    --cor1: #EC2B3E;
+    --cor2: #CA2435;
+    --cor3: #F52D41;
+    --cor4: #A81E2C;
+    --cor5: #861823;
+    --cor6: #63121A;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor6));
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    font-family: var(--font1);
+    margin: 20px 0px 20px 0px;
+}
+
+.b1 {
+    margin-left: 20px;
+}
+
+nav > button {
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: #A81E2C;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    transition: 1.5s;
+}
+
+nav > button > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > button:hover {
+    cursor: pointer;
+    background-color: #63121A;
+    transition: 1.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+.p1 {
+    margin-top: 5px;
+    max-width: 100vw;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    font-family: var(--font1);
+    font-size: 2.5em;
+}
+
+section {
+    min-height: 700px;
+    max-width: 100vw;
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.377);
+    min-height: 300px;
+    max-width: 30vw;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: var(--font1);
+    font-size: 1.5em;
+}
+
+.img1 {
+    background-image: url(/Site.html/Imagens/cinema-menor2.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 900px;
+    background-size: cover;
+}
+
+article {
+    min-width: 96vw;
+    min-height: 30vh;
+    font-size: 2.5em;
+    font-family: var(--font1);
+    padding: 10px;
+    
+}
+
+.img2 {
+    background-image: url(/Site.html/Imagens/blue-moutains.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    margin: none;
+    font-family: var(--font2);
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 5px;
+}
